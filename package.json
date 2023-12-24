@@ -1,0 +1,33 @@
+{
+  "name": "directory_manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "dirmanager": "./dist/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "bip32": "^4.0.0",
+    "bip39": "^3.1.0",
+    "bip44": "^0.0.1",
+    "bitcoind-rpc": "^0.9.1",
+    "bitcoinjs-lib": "^6.1.5",
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "ecpair": "^2.1.0",
+    "figlet": "^1.7.0",
+    "tiny-secp256k1": "^2.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "typescript": "^5.3.2"
+  }
+}
